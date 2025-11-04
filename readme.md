@@ -1,99 +1,158 @@
-# Skillify — AI Powered Resume Builder
+# 🧠 Skillify – AI Powered Resume Builder
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)  
----
+<p align="center">
+  <a href="https://skillify-ai.vercel.app/">
+    <img src="https://img.shields.io/badge/🚀%20Live%20Demo-Skillify-purple?style=for-the-badge&logo=vercel&logoColor=white" alt="Skillify Live Demo"/>
+  </a>
+</p>
 
-## 🚀 About Skillify
-
-Skillify is an **AI-powered resume builder** that helps users create customized, professional resumes. It uses AI to suggest or generate content, format sections, and ensure your resume looks polished and up-to-date.
-
----
-
-## 🔧 Tech Stack
-
-| Layer        | Technologies               |
-|--------------|-----------------------------|
-| Frontend     | React, Tailwind CSS         |
-| Backend      | Node.js, Express            |
-| Database     | MongoDB                     |
-| Authentication | JWT  |
-| AI / Content | (using OpenAI Gemini 2.5 GPT model) |
+**Skillify** is an intelligent, modern resume builder powered by **AI**. It helps users craft professional resumes with smart content suggestions, ATS-friendly formatting, and seamless PDF downloads — all within a beautifully responsive interface.
 
 ---
 
-## 📂 Folder Structure
+## 🚀 Features
 
-Skillify---AI-Powered-Resume
-├── client/ # React frontend
-│ ├── src/
-│ │ ├── components/
-│ │ ├── pages/
-│ │ └── styles/
-│ └── package.json
-├── server/ # Backend server
-│ ├── controllers/
-│ ├── models/
-│ ├── routes/
-│ ├── middleware/
-│ └── package.json
-├── README.md
-└── .gitignore
+### 👩‍💼 User Side
+- 🔑 Secure Login & Signup (JWT authentication)  
+- 🧠 AI-powered resume content generation (summaries, skills, descriptions)  
+- 📝 Interactive resume editor with live preview  
+- 💾 Save, edit, and manage multiple resumes  
+- 📥 Download resumes in PDF format (via **ImageKit**)  
+- 📱 Fully responsive UI for mobile and desktop  
 
-yaml
-Copy code
+### 🛠️ Admin Side
+- 📊 View and manage user accounts  
+- 📂 Manage templates, user feedback, and resume data  
+- 🔐 Secure admin authentication  
 
 ---
 
-## ✨ Features
+## 🧩 Tech Stack
 
-- User authentication (signup / login)  
-- Create / Edit Resume sections (Education, Skills, Experience, Projects…)  
-- AI-powered content suggestions (e.g. rewording bullets, generating summary text)  
-- Download / Export resume (PDF / DOCX)  
-- Preview in different styles / templates  
-- Responsive design (works on mobile / desktop)
+| Layer        | Technologies                        |
+|--------------|-----------------------------------|
+| Frontend     | React.js, Tailwind CSS             |
+| Backend      | Node.js, Express.js                |
+| Database     | MongoDB                            |
+| Authentication | JWT (JSON Web Tokens)             |
+| File Handling | ImageKit (for PDF generation/downloads) |
+| AI Integration | OpenAI API / LangChain (for text generation) |
+| Deployment   | Vercel (Frontend), Render (Backend) |
 
 ---
 
-## 💿 Installation & Setup
+## ⚡ Installation
 
-1. **Clone the repository**
+### Prerequisites
+- Node.js & npm installed  
+- MongoDB Atlas or local MongoDB setup  
+- ImageKit account (for resume download)  
+- OpenAI API Key (for AI generation features)
 
-   ```bash
-   git clone https://github.com/Akash-Raj9/Skillify---AI-Powered-Resume.git
-   cd Skillify---AI-Powered-Resume
-Backend
+### Steps
 
-bash
-Copy code
+Clone the repository  
+```bash
+git clone https://github.com/Akash-Raj9/Skillify---AI-Powered-Resume.git
+Enter the project directory
+
+cd Skillify---AI-Powered-Resume
+
+
+Install backend dependencies
+
 cd server
 npm install
-# configure your environment variables (e.g. DB connection, JWT secrets, AI API key)
-npm run dev   # or `node index.js` 
-Frontend
 
-bash
-Copy code
+
+Install frontend dependencies
+
 cd ../client
 npm install
+
+
+Run backend server
+
+cd ../server
+npm run dev
+
+
+Run frontend in development mode
+
+cd ../client
 npm start
-Visit in browser
 
 
-🌍 Deployment / Live Demo
-Skillify Live Demo
+Open your browser and visit http://localhost:3000
 
-🛣️ Future Roadmap
-Add more resume templates
+🌍 Deployment
 
-Integration with LinkedIn / GitHub profile import
+Frontend deployed on Vercel → https://skillify-ai.vercel.app/
 
-Version history / Multiple resumes per user
+Backend deployed on Render or preferred cloud service.
 
-More AI-features: tonal adjustment, keyword optimization for ATS
+📁 Project Structure
+Skillify---AI-Powered-Resume/
+├── client/             # React frontend source code
+│   ├── components/
+│   ├── pages/
+│   ├── utils/
+│   └── styles/
+├── server/             # Node.js + Express backend
+│   ├── routes/
+│   ├── models/
+│   ├── controllers/
+│   ├── middleware/
+│   └── config/
+├── README.md
+└── .env                # Environment variables (DB, JWT, API keys)
 
-Team / Collaboration features
+📸 Screenshots
 
-👤 Author
+(Add preview images here if available)
+Example:
+
+/assets/screenshots/dashboard.png
+/assets/screenshots/resume-builder.png
+/assets/screenshots/ai-suggestions.png
+
+🧭 Future Enhancements
+
+✨ Add multiple resume templates
+
+🤖 Improve AI for better job-tailored suggestions
+
+📊 Add analytics dashboard for user activity
+
+🗂️ Allow importing data from LinkedIn / GitHub
+
+💬 Add feedback & version history for resumes
+
+👨‍💻 Author
+
 Akash Raj
-GitHub • LinkedIn • Portfolio
+🚀 B.Tech CSE Student | Full Stack Developer
+GitHub: Akash-Raj9
+
+LinkedIn: linkedin.com/in/akash-raj
+
+<p align="center">Made with ❤️, ☕, and 💡 by <b>Akash Raj</b></p>
+🙏 Acknowledgements
+
+MongoDB Atlas
+ – Cloud Database
+
+Vercel
+ – Frontend Hosting
+
+Render
+ – Backend Hosting
+
+ImageKit
+ – Resume Image & PDF Handling
+
+OpenAI
+ – AI Text Generation
+
+Tailwind CSS
+ – Modern UI Styling
