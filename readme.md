@@ -1,7 +1,7 @@
 # 🧠 Skillify – AI Powered Resume Builder
 
 <p align="center">
-  <a href="https://skillify-ai.vercel.app/">
+  <a href="https://skillify-ai-powered-resume-w5ac.vercel.app/">
     <img src="https://img.shields.io/badge/🚀%20Live%20Demo-Skillify-purple?style=for-the-badge&logo=vercel&logoColor=white" alt="Skillify Live Demo"/>
   </a>
 </p>
@@ -87,7 +87,7 @@ Open your browser and visit http://localhost:3000
 
 🌍 Deployment
 
-Frontend deployed on Vercel → https://skillify-ai.vercel.app/
+Frontend deployed on Vercel → https://skillify-ai-powered-resume-w5ac.vercel.app/
 
 Backend deployed on Render or preferred cloud service.
 
@@ -106,11 +106,6 @@ Skillify---AI-Powered-Resume/
 │   └── config/
 ├── README.md
 └── .env                # Environment variables (DB, JWT, API keys)
-
-📸 Screenshots
-
-(Add preview images here if available)
-Example:
 
 /assets/screenshots/dashboard.png
 /assets/screenshots/resume-builder.png
