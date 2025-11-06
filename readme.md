@@ -131,7 +131,7 @@ Example:
 👨‍💻 Author
 
 Akash Raj
-🚀 B.Tech CSE Student | Full Stack Developer
+🚀 B.Tech CSE Student || Full Stack Developer
 GitHub: Akash-Raj9
 
 LinkedIn: linkedin.com/in/akash-raj
