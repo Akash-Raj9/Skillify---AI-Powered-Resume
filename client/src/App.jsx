@@ -6,6 +6,9 @@ import Dashboard from './pages/Dashboard'
 import ResumeBuilder from './pages/ResumeBuilder'
 import Preview from './pages/Preview'
 
+import PrivacyPolicy from './pages/PrivacyPolicy'
+import TermsOfService from './pages/TermsOfService'
+
 import { useDispatch } from 'react-redux'
 import api from './configs/api'
 import { login, setLoading } from './app/features/authslice'
@@ -46,7 +49,8 @@ const App = () => {
          <Route path='builder/:resumeId' element={<ResumeBuilder/>} />
       </Route>
       <Route path='view/:resumeId' element={<Preview/>} />
-      
+        <Route path='/privacy' element={<PrivacyPolicy />} />
+        <Route path='/terms' element={<TermsOfService />} />
 
       </Routes> 
     </>

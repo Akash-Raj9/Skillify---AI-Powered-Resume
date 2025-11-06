@@ -52,46 +52,31 @@ const Footer = () => {
 
         <br />
 
-        <p>
+        {/* <p>
           <a href="https://www.kickresume.com/privacy/" target="_blank" rel="noreferrer" className="underline hover:text-white mr-8">
             Privacy Policy
           </a>
           <a href="https://www.kickresume.com/terms/" target="_blank" rel="noreferrer" className="underline hover:text-white">
             Terms of Service
           </a>
+        </p> */}
+        <p>
+          <a href="/privacy" className="underline hover:text-white mr-8" target="_blank"rel="noopener noreferrer">
+            Privacy Policy
+          </a>
+          <a href="/terms" className="underline hover:text-white" target="_blank"rel="noopener noreferrer">
+            Terms of Service
+          </a>
         </p>
+
           <br />
 
         {/* Social Icons */}
         <div className="flex items-center gap-10 mt-1">
-          {/* Facebook */}
-          <a
-            href="https://www.facebook.com"
-            target="_blank"
-            rel="noreferrer"
-            className="hover:-translate-y-0.5 transition-all duration-300"
-          >
-            <svg
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
-                stroke="#fff"
-                strokeOpacity=".6"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-            </svg>
-          </a>
 
           {/* Instagram */}
           <a
-            href="https://www.instagram.com"
+            href="https://www.instagram.com/akashyaduvanshi_9"
             target="_blank"
             rel="noreferrer"
             className="hover:-translate-y-0.5 transition-all duration-300"
@@ -124,7 +109,7 @@ const Footer = () => {
 
           {/* LinkedIn */}
           <a
-            href="https://www.linkedin.com"
+            href="https://www.linkedin.com/in/akash-raj-6b3388284/"
             target="_blank"
             rel="noreferrer"
             className="hover:-translate-y-0.5 transition-all duration-300"
@@ -149,7 +134,7 @@ const Footer = () => {
 
           {/* Twitter / X */}
           <a
-            href="https://x.com"
+            href="https://x.com/_Jarvis_21?t=PcVVZMQ0kZ8dbHSOzktMPQ&s=08"
             target="_blank"
             rel="noreferrer"
             className="hover:-translate-y-0.5 transition-all duration-300"
